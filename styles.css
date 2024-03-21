@@ -1,0 +1,113 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    margin: auto;
+    width: 960px;
+    height: 650px;
+    padding: 5px;
+}
+
+
+.logo{
+    width: 100%;
+    float: left;
+
+}
+
+.left{
+    float: left;
+    width: 70%;
+    height: 70%;
+    border-radius: 24px;
+}
+
+.right{
+    float: right;
+    width: 30%;
+    height: auto;
+    background: white;
+}
+
+.left-button{
+    float: left;
+    width: 70%;
+    height: auto;
+    border-radius: 24px;
+}
+
+.title{
+    float: inherit;
+    margin: auto;
+
+}
+
+.text-input{
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 80%;
+    height: 80%;
+    color: #0A3871;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    background: #F3F5FC;
+}
+
+#imgDer{
+    margin-top: 20%;
+    margin-left: 5%;
+    width: 90%;
+    height: auto;
+
+}
+
+#texto{
+    margin-left: 7%;
+    margin-right: 7%;
+
+}
+
+#texto2{
+    float: left;
+    margin-left: 10%;
+    margin-top: 2%;
+    color: #0A3871;
+    width: 80%;
+    height: 60%;
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
+
+#btn-encriptar{
+    padding: 24px;
+    width: 30%;
+    height: 60%;
+    border-radius: 24%;
+    margin-left: 10%;
+    background: #0A3871;
+}
+
+#btn-desencriptar{
+    padding: 24px;
+    width: 30%;
+    height: 60%;
+    border-radius: 24%;
+    margin-left: 10%;
+    background: #D8DFE8;
+}
+
+#copiar{
+    margin-left: 33%;
+    margin-top: 90%;
+    padding: 24px;
+    width: 40%;
+    height: 10%;
+    background: #D8DFE8;
+    border-radius: 24px;
+    display: none;
+}
